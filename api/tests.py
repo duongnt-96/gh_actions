@@ -14,4 +14,3 @@ class AnimalTestCase(TestCase):
         self.assertEqual(lion.speak(), 'The lion says "roar"')
         self.assertEqual(cat.speak(), 'The cat says "meow"')
         self.assertNotEqual(cat.speak(), lion.speak())
-        self.assertEqual(cat.speak(), lion.speak())
